@@ -22,8 +22,11 @@ class First2Fragment : Fragment() {
     private val binding get() = requireNotNull(_binding)
 
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+    override fun onCre
+    ateView(
+        inflater: Layout
+        Inflater, conta
+        iner: ViewGroup?,
 
         savedInstanceState: Bundle?
 
@@ -31,7 +34,10 @@ class First2Fragment : Fragment() {
     ): View {
 
 
-        _binding = FragmentFirst2Binding.inflate(inflater, container, false)
+        _binding = FragmentFirst
+        2Bindin
+        g.inflate(infla
+                ter, container, false)
         return binding.root
 
 
@@ -39,9 +45,11 @@ class First2Fragment : Fragment() {
     }
 
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, save
+                               dInstanceState: Bundle?) {
 
-        super.onViewCreated(view, savedInstanceState)
+        super.onViewCreated(view, save
+                dInstanceState)
 
 
         binding.buttonFirst.setOnClickListener {
